@@ -1,0 +1,22 @@
+{
+  "name": "@xinghe/autov",
+  "version": "1.0.1",
+  "description": "increase version automatically.",
+  "main": "src/index.js",
+  "bin": {
+    "autov": "bin/autov"
+  },
+  "scripts": {
+    "test": "node ./test/__index__.js"
+  },
+  "keywords": [
+    "increase-version"
+  ],
+  "author": "xing.he",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "prompt": "^1.3.0",
+    "yaml": "^1.10.2"
+  }
+}
